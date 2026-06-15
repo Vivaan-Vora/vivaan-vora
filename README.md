@@ -1,30 +1,11 @@
-# Vivaan Vora Portfolio
+# Vivaan Vora - Robotics Engineering @ UC Santa Cruz
 
-Personal portfolio website for Vivaan Vora, built with React, Vite, Tailwind CSS,
-Three.js, GSAP, Lenis, and lucide-react.
+### Skills
 
-## Local development
+**Languages:** Python, C, C++, TypeScript, Java, MATLAB, Bash
 
-```bash
-npm install
-npm run dev
-```
+**Frameworks & Tools:** React, FastAPI, Docker, Firebase, Git, Google ADK, Pinecone, LangChain
 
-## Production build
+**ML / AI:** PyTorch, TensorFlow, OpenCV, scikit-learn, RAG Pipelines, Multi-Agent Systems
 
-```bash
-npm run build
-```
-
-## Vercel deployment
-
-```bash
-vercel --prod
-```
-
-The app includes `vercel.json` SPA rewrites and Vite is configured with
-`base: './'`.
-
-## Assets
-
-- Place Vivaan's photo at `src/assets/headshot.jpg`.
+**Hardware & CAD:** Raspberry Pi, Arduino, SolidWorks, Fusion 360
