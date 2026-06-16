@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect, useState } from 'react'
-import { ArrowDown, Download } from 'lucide-react'
+import { ArrowDown } from 'lucide-react'
 import Magnetic from './Magnetic.jsx'
 
 const ThreeBackdrop = lazy(() => import('./ThreeBackdrop.jsx'))
@@ -66,23 +66,13 @@ function Hero() {
             assistive technology. I care about making things that work in the real world.
           </p>
 
-          <div className="reveal mt-10 flex flex-col gap-4 sm:flex-row">
+          <div className="reveal mt-10 flex">
             <Magnetic className="w-full sm:w-auto">
               <a
                 href="#projects"
                 className="group inline-flex w-full items-center justify-center rounded-full border border-portfolio-accent/70 bg-portfolio-accent px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-bg shadow-[0_0_45px_rgba(91,156,246,0.22)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(91,156,246,0.4)] sm:w-auto"
               >
                 View Projects
-              </a>
-            </Magnetic>
-            <Magnetic className="w-full sm:w-auto">
-              <a
-                href="/resume.pdf"
-                download
-                className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-portfolio-border bg-portfolio-surface/55 px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-primary backdrop-blur-md transition-all duration-300 hover:border-portfolio-accent/70 hover:text-portfolio-accent sm:w-auto"
-              >
-                <Download size={16} />
-                Download Resume
               </a>
             </Magnetic>
           </div>

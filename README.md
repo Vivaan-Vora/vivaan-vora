@@ -28,5 +28,3 @@ The app includes `vercel.json` SPA rewrites and Vite is configured with
 ## Assets
 
 - Place Vivaan's photo at `src/assets/headshot.jpg`.
-- Place a resume PDF at `public/resume.pdf` if the Download Resume CTA should
-  serve a file.
