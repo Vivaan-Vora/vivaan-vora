@@ -1,3 +1,4 @@
+import About from './components/About.jsx'
 import CustomCursor from './components/CustomCursor.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
@@ -8,6 +9,7 @@ function App() {
       <CustomCursor />
       <Navbar />
       <Hero />
+      <About />
     </main>
   )
 }
