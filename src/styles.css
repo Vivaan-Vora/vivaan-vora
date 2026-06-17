@@ -84,6 +84,42 @@ body::before {
   background: rgba(91, 156, 246, 0.08);
 }
 
+.text-shimmer {
+  color: #F0F0F0;
+  background: linear-gradient(115deg, #F0F0F0 0%, #F0F0F0 35%, #5B9CF6 48%, #F0F0F0 62%, #A78BFA 100%);
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 9s ease-in-out infinite;
+}
+
+.scroll-arrow {
+  animation: arrow-float 1.6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+@keyframes arrow-float {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
 @media (pointer: coarse) {
   .cursor-dot {
     display: none;
