@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Syne:wght@500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --color-portfolio-bg: #080808;
+  --color-portfolio-surface: #111111;
+  --color-portfolio-accent: #5B9CF6;
+  --color-portfolio-violet: #A78BFA;
+  --color-portfolio-primary: #F0F0F0;
+  --color-portfolio-muted: #888888;
+  --color-portfolio-border: #1F1F1F;
+}
+
+:root {
+  color: #F0F0F0;
+  background: #080808;
+  font-family: 'DM Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: auto;
+  background: #080808;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button,
+a {
+  font: inherit;
+}
