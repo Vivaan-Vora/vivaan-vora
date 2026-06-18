@@ -1,17 +1,17 @@
 const projects = [
   {
-    id: 'cad-proj',
-    name: '65DegreeCradle',
-    href: 'https://github.com/Vivaan-Vora/cad-proj',
-    description:
-      'Parametric Onshape phone cradle for desk use and 3D printing. Fixed 65° viewing angle with integrated cable routing and variable-driven dimensions for rapid iteration.',
-  },
-  {
     id: 'routix',
     name: 'Routix',
     href: 'https://github.com/Vivaan-Vora/Routix',
     description:
       '2D and 3D warehouse navigation simulator combining classical pathfinding and reinforcement learning. Trains agents through dynamic obstacle environments using Q-learning and DQN, with built-in diagnostics, failure analysis, and benchmarking.',
+  },
+  {
+    id: 'cad-proj',
+    name: '65DegreeCradle',
+    href: 'https://github.com/Vivaan-Vora/cad-proj',
+    description:
+      'Parametric phone cradle built in Onshape for desk use and FDM 3D printing. Fixed 65° viewing angle with integrated cable cutout, stable weighted base, filletted printable walls, and named design variables for fast iteration.',
   },
   {
     id: 'pid-inverted-pendulum-simulation',
