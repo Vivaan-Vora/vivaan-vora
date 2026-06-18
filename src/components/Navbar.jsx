@@ -38,12 +38,12 @@ function Navbar() {
           </a>
         </Magnetic>
 
-        <div className="flex items-center gap-1 rounded-full border border-portfolio-border/70 bg-portfolio-surface/35 p-1 backdrop-blur-md sm:gap-2">
+        <div className="flex items-center gap-0 rounded-full border border-portfolio-border/70 bg-portfolio-surface/35 p-1 backdrop-blur-md sm:gap-2">
           {links.map((link) => (
             <Magnetic key={link.href} strength={0.14}>
               <a
                 href={link.href}
-                className="rounded-full px-3 py-2 text-xs font-medium uppercase tracking-[0.22em] text-portfolio-muted transition-colors duration-300 hover:text-portfolio-primary sm:px-4"
+                className="rounded-full px-2 py-2 text-[0.58rem] font-medium uppercase tracking-[0.13em] text-portfolio-muted transition-colors duration-300 hover:text-portfolio-primary min-[420px]:px-3 min-[420px]:text-xs min-[420px]:tracking-[0.18em] sm:px-4 sm:tracking-[0.22em]"
               >
                 {link.label}
               </a>

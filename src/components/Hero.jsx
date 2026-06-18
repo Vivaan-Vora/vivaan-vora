@@ -37,12 +37,9 @@ function Hero() {
   const typedRole = roles[roleIndex].slice(0, letterCount)
 
   return (
-    <section
-      id="top"
-      className="relative isolate flex min-h-screen overflow-hidden px-5 pt-24 sm:px-8"
-    >
+    <section id="top" className="relative isolate flex min-h-screen overflow-hidden px-5 pb-20 pt-24 sm:px-8">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_40%,rgba(91,156,246,0.16),transparent_34%),radial-gradient(circle_at_18%_78%,rgba(167,139,250,0.12),transparent_30%)]" />
-      <div className="absolute right-0 top-16 h-[72vh] w-full opacity-90 md:right-8 md:top-24 md:h-[76vh] md:w-[62vw]">
+      <div className="absolute right-0 top-16 h-[72vh] w-full opacity-55 md:right-8 md:top-24 md:h-[76vh] md:w-[62vw] md:opacity-90">
         <ThreeBackdrop />
       </div>
 
@@ -67,19 +64,19 @@ function Hero() {
           </p>
 
           <div className="reveal mt-10 flex flex-col gap-4 sm:flex-row">
-            <Magnetic>
+            <Magnetic className="w-full sm:w-auto">
               <a
                 href="#projects"
-                className="group inline-flex items-center justify-center rounded-full border border-portfolio-accent/70 bg-portfolio-accent px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-bg shadow-[0_0_45px_rgba(91,156,246,0.22)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(91,156,246,0.4)]"
+                className="group inline-flex w-full items-center justify-center rounded-full border border-portfolio-accent/70 bg-portfolio-accent px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-bg shadow-[0_0_45px_rgba(91,156,246,0.22)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(91,156,246,0.4)] sm:w-auto"
               >
                 View Projects
               </a>
             </Magnetic>
-            <Magnetic>
+            <Magnetic className="w-full sm:w-auto">
               <a
                 href="/resume.pdf"
                 download
-                className="inline-flex items-center justify-center gap-3 rounded-full border border-portfolio-border bg-portfolio-surface/55 px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-primary backdrop-blur-md transition-all duration-300 hover:border-portfolio-accent/70 hover:text-portfolio-accent"
+                className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-portfolio-border bg-portfolio-surface/55 px-7 py-4 text-sm font-bold uppercase tracking-[0.22em] text-portfolio-primary backdrop-blur-md transition-all duration-300 hover:border-portfolio-accent/70 hover:text-portfolio-accent sm:w-auto"
               >
                 <Download size={16} />
                 Download Resume
