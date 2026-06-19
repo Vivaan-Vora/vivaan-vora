@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
+import { Suspense, lazy, useEffect, useState } from 'react'
 import { ArrowDown, Download } from 'lucide-react'
 import Magnetic from './Magnetic.jsx'
-import ThreeBackdrop from './ThreeBackdrop.jsx'
+
+const ThreeBackdrop = lazy(() => import('./ThreeBackdrop.jsx'))
 
 const roles = ['Robotics Engineer', 'ML Developer', 'Builder', 'Researcher']
 
@@ -40,7 +41,9 @@ function Hero() {
     <section id="top" className="relative isolate flex min-h-screen overflow-hidden px-5 pb-20 pt-24 sm:px-8">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_40%,rgba(91,156,246,0.16),transparent_34%),radial-gradient(circle_at_18%_78%,rgba(167,139,250,0.12),transparent_30%)]" />
       <div className="absolute right-0 top-16 h-[72vh] w-full opacity-55 md:right-8 md:top-24 md:h-[76vh] md:w-[62vw] md:opacity-90">
-        <ThreeBackdrop />
+        <Suspense fallback={null}>
+          <ThreeBackdrop />
+        </Suspense>
       </div>
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-10 py-20 md:grid-cols-[1.05fr_0.95fr]">
