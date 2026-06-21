@@ -12,7 +12,7 @@
 
 ### Active
 
-**Software Engineering Intern (Summer 2026) @ EZRE** — Building accessible payment infrastructure for blind and low-vision users. Integrated the Square POS API for itemized receipt delivery and tipping flows; validated against VoiceOver and TalkBack screen reader standards across multiple device configurations.
+**Software Engineer Intern (Summer 2026) @ EZRE** — Building accessible payment infrastructure for blind and low-vision users. Integrated the Square POS API for itemized receipt delivery and tipping flows; validated against VoiceOver and TalkBack screen reader standards across multiple device configurations.
 
 **Undergraduate Researcher @ Tech4Good** — Designing and evaluating multi-agent orchestration systems using Google ADK and Gemini across LoopAgent, ParallelAgent, and a custom dual-runner architecture. Building RAG pipelines with Pinecone and integrating MCP servers for tool-augmented agentic workflows.
 

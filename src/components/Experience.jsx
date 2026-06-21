@@ -3,7 +3,7 @@ const groups = [
     label: 'Experience',
     items: [
       {
-        role: 'Software Engineering Intern (Summer 2026)',
+        role: 'Software Engineer Intern (Summer 2026)',
         org: 'EZRE',
         location: 'Washington, D.C.',
         date: 'June 2026-Present',
